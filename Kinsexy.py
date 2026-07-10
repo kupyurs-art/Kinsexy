@@ -14,7 +14,7 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
-logger = logging.getLogger('KinsecBot')
+logger = logging.getLogger('KinsexyBot')
 
 # --- CONFIGURATION WITH RAILWAY ENV VARIABLES ---
 BOT_TOKEN = os.getenv("BOT_TOKEN")
